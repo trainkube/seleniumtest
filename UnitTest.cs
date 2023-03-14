@@ -13,8 +13,8 @@ namespace selenium
         public void TestSite()
         {
             test_driver = new ChromeDriver();
-            test_driver.Navigate().GoToUrl("https://docs.microsoft.com/en-us/learn/certifications/exams/az-400");
-            Assert.IsTrue(test_driver.Title.Contains("AZ-400"));
+            test_driver.Navigate().GoToUrl("https://dpsnoida.co.in/");
+            Assert.IsTrue(test_driver.Title.Contains("DPS Noida"));
             test_driver.Quit();
         }
     }
